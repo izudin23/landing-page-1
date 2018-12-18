@@ -1,0 +1,176 @@
+/* 
+    font-family: 'Abel', sans-serif;
+
+    font-family: 'Courgette', cursive;
+ */
+.height {
+    min-height: 100vh;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Kaushan Script', Arial, sans-serif;
+    color: #fec503 !important;
+
+}
+
+.nav-link {
+    margin-right: 20px;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #fec503 !important;
+
+}
+
+/* end navbar */
+
+/* header */
+header {
+    background: url(/img/header-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.intro-lead-in {
+    font-family: 'Droid Serif', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+
+}
+
+.intro-heading {
+    font-family: 'Montserrat'Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.btn-primary {
+    background-color: #fec503;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+/* header */
+
+/* services */
+#services {
+    min-height: 100vh;
+
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 2.5rem;
+}
+
+.section-p {
+    font-weight: 100;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.service-heading {
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* services */
+
+
+/* portfolio */
+#portfolio {
+    min-height: 100vh;
+
+}
+
+.col-md-4.col-sm-6.item {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: 'Droid Serif', Arial, sans-serif;
+    font-style: italic;
+}
+
+/* portfolio */
+
+/* team */
+#team {
+    min-height: 100vh;
+}
+
+.team-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #312f2f33;
+    margin: 10px;
+}
+
+.team-member.text-center {
+    padding-bottom: 20px;
+    color: #a07e7e;
+    text-shadow: 0 0 0px black;
+    background-color: #f8f9fa;
+}
+
+#team p.text-muted {
+    margin: 20px;
+}
+
+.col-md-4.team-item {
+    padding: 10px;
+}
+
+/* team */
+
+/* contact us */
+#contact {
+    background: url(/img/contact.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: auto;
+
+}
+
+/* contact us */
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .intro-lead-in {
+        font-size: 2.5rem;
+
+    }
+
+    .intro-heading {
+        font-size: 4.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
